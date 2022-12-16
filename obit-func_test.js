@@ -13,7 +13,5 @@ Scenario('Should open the page, assert that the descendants first name appears i
        
         I.fillField({name: '_GuestbookForm_From'}, 'John Doe')
         I.fillField({name: '_GuestbookForm_Email'}, 'jdoe@test.com')
-        //I.click()
-        pause();
-
+        I.click({ css: '[data-component=GuestbookSubmitButton]'})
 });

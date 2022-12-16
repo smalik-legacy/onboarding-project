@@ -1,4 +1,7 @@
-const { setHeadlessWhen, setCommonPlugins } = require('@codeceptjs/configure');
+const {
+  setHeadlessWhen,
+  setCommonPlugins
+} = require('@codeceptjs/configure');
 // turn on headless mode when running with HEADLESS=true environment variable
 // export HEADLESS=true && npx codeceptjs run
 setHeadlessWhen(process.env.HEADLESS);
@@ -17,12 +20,15 @@ exports.config = {
     }
   },
   include: {
-    I: './steps_file.js'
+    "I": "./steps_file.js",
   },
+  // in codecept.conf.js
   // plugins: {
-  //   wdio: {
+  //   customLocator: {
   //     enabled: true,
-  //     services: ['selenium-standalone']
+  //     attribute: 'data-component',
+  //     prefix: '=',
+  //     type: 'css'
   //   }
   // },
   name: 'onboarding-project'
