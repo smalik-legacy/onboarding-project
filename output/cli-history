@@ -1,0 +1,36 @@
+
+
+<<< Recorded commands on Thu Dec 15 2022 15:21:37 GMT-0600 (Central Standard Time)
+
+
+<<< Recorded commands on Thu Dec 15 2022 23:40:55 GMT-0600 (Central Standard Time)
+I.fillField({name: '_GuestbookForm_Message'}, 'testing this function to see if this works')
+
+<<< Recorded commands on Fri Dec 16 2022 00:08:20 GMT-0600 (Central Standard Time)
+I.fillField({name: '_GuestbookForm_From'}, 'John Doe')
+I.fillField({name: '_GuestbookForm_Email'}, 'jdoe@test.com')
+I.exot
+
+<<< Recorded commands on Fri Dec 16 2022 00:42:55 GMT-0600 (Central Standard Time)
+I.fillField({name: '_GuestbookForm_From'}, 'John Doe')
+I.fillField({name: '_GuestbookForm_Email'}, 'jdoe@test.com')
+I.click('button')
+I.click('button')
+I.click('button')
+
+
+<<< Recorded commands on Fri Dec 16 2022 01:55:51 GMT-0600 (Central Standard Time)
+I.waitForVisible('button', 5)
+I.waitForElement('button', 10)
+I.click('button')
+
+<<< Recorded commands on Fri Dec 16 2022 11:14:15 GMT-0600 (Central Standard Time)
+I.click('button')
+I.click('button')
+I.clear
+
+<<< Recorded commands on Fri Dec 16 2022 11:48:01 GMT-0600 (Central Standard Time)
+I.exot
+
+<<< Recorded commands on Fri Dec 16 2022 12:03:00 GMT-0600 (Central Standard Time)
+I.click({ css: '[data-component=GuestbookSubmitButton]'})
