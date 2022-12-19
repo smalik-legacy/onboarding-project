@@ -21,6 +21,7 @@ exports.config = {
   },
   include: {
     "I": "./steps_file.js",
+    "guestbookPage": "./pages/guestbook.js"
   },
   // in codecept.conf.js
   // plugins: {
